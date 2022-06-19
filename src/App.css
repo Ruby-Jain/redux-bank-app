@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.bkcolor {
+    background-image: linear-gradient(to bottom right, rgba(230, 255, 2, 0.8), rgba(255, 0, 191, 0.8), rgba(6, 6, 247, 0.8), rgba(5, 133, 5, 0.8));
+    margin: 90px;
+    padding: 90px;
+    color: white;
+    border: 5px solid black;
+    font-family:'Franklin Gothic Medium';
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow: 1.5px 1.5px black;
+    border-radius: 5px;
+    box-shadow: 3px 5px 2px 9px rgb(0, 0, 0), 3px 5px 2px 20px rgb(247, 4, 255);
+}
+.bkcolor>.point{
+    animation: animate 1s ease-in infinite;
+    animation-delay: 0.2ms;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shopbtn {
+    padding: 20px;
+    border: 2px solid black;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+    box-shadow: 3px 5px 2px 2px rgb(0, 0, 0), 3px 5px 2px 2px rgb(0, 0, 0);
+    font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+    background-image: linear-gradient(to right, rgb(17, 25, 73), rgb(124, 124, 250), rgb(37, 42, 82));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbtn {
+    text-shadow: 1.5px 1.5px black;
+    padding: 10px;
+    font-weight: bolder;
+    box-shadow: 3px 5px 2px 2px rgb(0, 0, 0), 3px 5px 2px 2px rgb(0, 0, 0);
 }

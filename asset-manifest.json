@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/redux-bank-app/static/css/main.98bf29f0.css",
+    "main.js": "/redux-bank-app/static/js/main.22c0823d.js",
+    "static/js/787.5e676c17.chunk.js": "/redux-bank-app/static/js/787.5e676c17.chunk.js",
+    "index.html": "/redux-bank-app/index.html",
+    "main.98bf29f0.css.map": "/redux-bank-app/static/css/main.98bf29f0.css.map",
+    "main.22c0823d.js.map": "/redux-bank-app/static/js/main.22c0823d.js.map",
+    "787.5e676c17.chunk.js.map": "/redux-bank-app/static/js/787.5e676c17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98bf29f0.css",
+    "static/js/main.22c0823d.js"
+  ]
+}
